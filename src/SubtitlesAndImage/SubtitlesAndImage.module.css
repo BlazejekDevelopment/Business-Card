@@ -1,0 +1,45 @@
+.heading {
+  font-size: 42px;
+  font-weight: 900;
+  font-style: italic;
+  text-shadow: 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.subHeading {
+  font-size: 17px;
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin-top: 8px;
+}
+
+.image {
+  border-radius: 17.5px;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #365fac;
+  padding: 50px 30px;
+  transform: translateY(-7.5px);
+}
+
+@media screen and (max-width: 380px) {
+  .heading {
+    font-size: 32px;
+  }
+
+  .subHeading {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .heading {
+    font-size: 52px;
+  }
+
+  .subHeading {
+    font-size: 23px;
+  }
+}

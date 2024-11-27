@@ -1,0 +1,56 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 55px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.adres {
+  font-size: 16px;
+  font-weight: 400;
+  color: #d2d2d2;
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 13px;
+  }
+
+  .adres {
+    font-size: 13px;
+  }
+
+  .image {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .adres {
+    font-size: 20px;
+  }
+}
